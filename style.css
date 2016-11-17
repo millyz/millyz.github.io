@@ -1,0 +1,136 @@
+@import "normalize.css";
+
+/* taken from http://matt.might.net/css/main.css */
+
+/* Google fonts */
+@import url(//fonts.googleapis.com/css?family=Marcellus+SC);
+@import url(//fonts.googleapis.com/earlyaccess/notosanssc.css);
+
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #555;
+    background-color: #f0f0f0;
+    /* background-image: url("img/noise.png"); */
+    text-shadow: 0 1px 0 #fff;
+    font-weight: 300;
+    word-wrap: break-word;
+
+    max-width: 767px;
+    margin: auto;
+}
+
+div.module {
+    background: white;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    padding: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 9px;
+    -moz-border-radius: 9px;
+    -o-box-shadow: 0 5px 5px #333333;
+    -webkit-box-shadow: 0 5px 5px #333333;
+    -moz-box-shadow: 0 5px 5px #333333;
+    box-shadow: 0 5px 5px #333333;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Marcellus SC', serif;
+    font-weight: 200;
+}
+
+h1 {
+  font-size: 30px;
+}
+
+li {
+    margin-top: 0.3em;
+    margin-bottom: 0.3em;
+}
+
+hr {
+  margin: 18px 0;
+  border: 0;
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #fff;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: blue;
+}
+
+pre {
+  font-family: "Courier 10 Pitch", Courier, monospace;
+  font-size: 16px;
+  background-color: #f5f5f5;
+  display: block;
+  line-height: 18px;
+  margin: 2em 0;
+  padding: 14px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+code {
+  font-family: "Courier 10 Pitch", Courier, monospace;
+  word-wrap: break-word;
+}
+
+a img {
+  border: 0 none;
+}
+
+p img {
+  margin-bottom: 0.5em;
+  /* a small bottom margin prevents content floating under images */
+}
+
+/*
+Resize images to fit the main content area.
+- Applies only to images uploaded via WordPress by targeting size-* classes.
+- Other images will be left alone. Use "size-auto" class to apply to other images.
+*/
+img {
+  max-width: 100%;
+  /* When images are too wide for containing element, force them to fit. */
+  height: auto;
+  /* Override height to match resized width for correct aspect ratio. */
+}
+
+ul.jump-bar {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-left: 0px ;
+    padding-right: 0px ;
+}
+
+blockquote {
+    margin: 0 0 1.5rem;
+    border-left: 0.4rem solid #C4BCB3;
+    padding: 0 0 0 1.1rem;
+}
+
+ul.jump-bar li {
+    display: inline ;
+    font-weight: bold ;
+}
+
+.paper-title {
+    font-weight:bold;
+}
+
+.author {
+    font-weight:700;
+    color: #777;
+}
+
+.ch {
+    font-family: 'Noto Sans SC', sans-serif;
+}
