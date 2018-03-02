@@ -1,0 +1,35 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+body {
+	padding-top: 8px;
+	padding-bottom: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+	font-size: 16px;
+	letter-spacing: 1px;
+	line-height: 25px;
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+}
+
+h4 {
+	padding-top: 12px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+	font-weight: bold;
+}
+
+.highlight {
+	color: rgb( 169, 68, 66 );
+	font-weight: 500;
+}
+
+.highlight * {
+	color: rgb( 51, 51, 51 );
+	font-weight: 300;
+}
+
+img {
+	max-width: 100%;
+}
