@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="/~mzhang/reader/bootstrap.min.css">
+<link rel="stylesheet" href="/~mzhang/reader/index.css">
+<script src="/~mzhang/reader/jquery.js"></script>
+<script src="/~mzhang/reader/markdown-it.min.js"></script>
+<script>
+  window.searchMap = location.search.substr(1).split('&').reduce(function(r, it) {
+    var them = it.split('='); r[them[0]] = them[1]; return r;
+  }, {});
+  $.ajaxSetup({async: false});
+</script>
+</head>
+<body>
+
+  <div class="markdown-html">
+    <script>$.get((searchMap.md), function(text) { document.write(markdownit().render(text)); });</script>
+  </div>
+
+</body>
+</html>
