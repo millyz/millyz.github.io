@@ -11,7 +11,7 @@
 	<link rel="manifest" href="/blog/site.webmanifest">
 	<link rel="mask-icon" href="/blog/safari-pinned-tab.svg" color="">
 	<link rel="shortcut icon" href="/blog/favicon.ico">
-	<title>Post With Featured Image</title>
+	<title></title>
 	<link rel="stylesheet" href="/blog/css/style.min.4fecf4c2d95f896869e64f36a14369caef0eeb1b4beab0f48c949aa99d18cc07.css" integrity="sha256-T+z0wtlfiWhp5k82oUNpyu8O6xtL6rD0jJSaqZ0YzAc=">
 	
 </head>
@@ -31,7 +31,6 @@
 			</div>
 			<div class="hdr-right">
 				<div class="hdr-icons">
-					<button id="show-img-btn" class="hdr-btn" onclick="showFeaturedImg()"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-image"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect><circle cx="8.5" cy="8.5" r="1.5"></circle><polyline points="21 15 16 10 5 21"></polyline></svg></button>
 					<span class="hide-in-mobile"><a href="https://github.com/millyz" target="_blank" rel="noopener"><span class="screen-reader-text">github</span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-github"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg></a></span>
 					<button id="menu-btn" class="hdr-btn"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg></button>
 				</div>
@@ -45,31 +44,43 @@
 		</ul>
 	</div>
 
-		<div id="bg-img" class="bg-img" style="background-image: url(https://picsum.photos/1024/768/?random);" onclick="showContent()"></div>
 	<main class="site-main section-inner animated fadeIn faster">
 		<article class="thin">
 			<header class="post-header">
-				<div class="post-meta"><span>Oct 1, 2018</span></div>
-				<h1>Post With Featured Image</h1>
+				<div class="post-meta"><span>Jan 1, 0001</span></div>
+				<h1></h1>
 			</header>
 			<div class="content">
-				<p>Just define the image URL in the content’s front matter, the featured image will be displayed as the background.</p>
+				
+
+<h2 id="draft-true">draft: true</h2>
+
+<p>title: &ldquo;Post With Featured Image&rdquo;
+date: 2018-10-01T16:15:09+08:00
+draft: false
+featuredImg: &ldquo;<a href="https://picsum.photos/1024/768/?random&quot;" target="_blank">https://picsum.photos/1024/768/?random&quot;</a>
+tags:
+  - Demo</p>
+
+<h2 id="image">- Image</h2>
+
+<p>Just define the image URL in the content’s front matter, the featured image will be displayed as the background.</p>
 
 <p>For example:</p>
 <div class="highlight"><pre class="chroma"><code class="language-yaml" data-lang="yaml">featuredImg<span class="p">:</span><span class="w"> </span><span class="s2">&#34;https://picsum.photos/1024/768/?random&#34;</span></code></pre></div>
 			</div>
 			<hr class="post-end">
 			<footer class="post-info">
-				<p>
-					<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-tag meta-icon"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line></svg><span class="tag"><a href="https://millyz.github.io/blog/tags/demo">Demo</a></span><span class="tag"><a href="https://millyz.github.io/blog/tags/image">Image</a></span>
-				</p>
-				<p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file-text"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>22 Words</p>
-				<p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-calendar"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>2018-10-01 16:15 &#43;0800</p>
+				<p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file-text"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>40 Words</p>
+				<p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-calendar"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>0001-01-01 08:00 &#43;0800</p>
 			</footer>
 		</article>
 		<div class="post-nav thin">
+			<a class="next-post" href="https://millyz.github.io/blog/posts/migrate-from-jekyll/">
+				<span class="post-nav-label"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-left"><line x1="19" y1="12" x2="5" y2="12"></line><polyline points="12 19 5 12 12 5"></polyline></svg>&nbsp;Newer</span><br><span></span>
+			</a>
 			<a class="prev-post" href="https://millyz.github.io/blog/posts/typography/">
-				<span class="post-nav-label">Older&nbsp;<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-right"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></span><br><span>Typography</span>
+				<span class="post-nav-label">Older&nbsp;<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-right"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></span><br><span></span>
 			</a>
 		</div>
 	</main>
