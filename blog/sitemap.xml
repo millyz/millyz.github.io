@@ -8,12 +8,36 @@
   </url>
   
   <url>
+    <loc>https://millyz.github.io/blog/posts/claycodes-fast18/</loc>
+    <lastmod>2018-10-29T19:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://millyz.github.io/blog/</loc>
     <priority>0</priority>
   </url>
   
   <url>
+    <loc>https://millyz.github.io/blog/tags/erasure-coding/</loc>
+    <lastmod>2018-10-29T19:00:00+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://millyz.github.io/blog/tags/paper-reading/</loc>
+    <lastmod>2018-10-29T19:00:00+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://millyz.github.io/blog/posts/</loc>
+    <lastmod>2018-10-29T19:00:00+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://millyz.github.io/blog/tags/</loc>
+    <lastmod>2018-10-29T19:00:00+08:00</lastmod>
     <priority>0</priority>
   </url>
   

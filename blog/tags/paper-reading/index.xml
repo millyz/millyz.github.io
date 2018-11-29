@@ -1,26 +1,16 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>The Evening Paper</title>
-    <link>https://millyz.github.io/blog/</link>
-    <description>Recent content on The Evening Paper</description>
+    <title>Paper Reading on The Evening Paper</title>
+    <link>https://millyz.github.io/blog/tags/paper-reading/</link>
+    <description>Recent content in Paper Reading on The Evening Paper</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
-    <lastBuildDate>Sun, 25 Nov 2018 14:46:47 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 29 Oct 2018 19:00:00 +0800</lastBuildDate>
     
-	<atom:link href="https://millyz.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://millyz.github.io/blog/tags/paper-reading/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>About</title>
-      <link>https://millyz.github.io/blog/about/</link>
-      <pubDate>Sun, 25 Nov 2018 14:46:47 +0800</pubDate>
-      
-      <guid>https://millyz.github.io/blog/about/</guid>
-      <description>Welcome to Milly&amp;rsquo;s blog. I&amp;rsquo;d like to share my learning here from three perspectives:
- Paper readings Programming Technology  If you have any comments, please contact me at millyz0204@gmail.com. : )</description>
-    </item>
     
     <item>
       <title>Clay codes: Moulding MDS Codes to Yield an MSR Code, FAST &#39;18</title>

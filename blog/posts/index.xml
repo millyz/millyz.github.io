@@ -7,19 +7,82 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
-    <lastBuildDate>Sun, 25 Nov 2018 11:55:43 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 29 Oct 2018 19:00:00 +0800</lastBuildDate>
     <atom:link href="https://millyz.github.io/blog/posts/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>Article Name</title>
-      <link>https://millyz.github.io/blog/posts/article-name/</link>
-      <pubDate>Sun, 25 Nov 2018 11:55:43 +0800</pubDate>
+      <title>Clay codes: Moulding MDS Codes to Yield an MSR Code, FAST &#39;18</title>
+      <link>https://millyz.github.io/blog/posts/claycodes-fast18/</link>
+      <pubDate>Mon, 29 Oct 2018 19:00:00 +0800</pubDate>
       
-      <guid>https://millyz.github.io/blog/posts/article-name/</guid>
-      <description> Aritcle </description>
+      <guid>https://millyz.github.io/blog/posts/claycodes-fast18/</guid>
+      <description>The title attracts me at the first sight. How do the authors switch a MDS code to a MSR code though they belong to different classes of erasure codes from my understanding? After reading the abstract, a big question mark arises over my head as the properties of this code seems rather promising. This new code, termed as Clay codes (short for Coupled-Layer), achieves the following properties:
+ Low storage overhead; Optimal in repair bandwidth, sub-packetization level and disk I/O; Uniform repair performance of data and parity nodes; Support for both single and multiple-node repairs, while permitting faster and more efficient repair.</description>
       <content type="html"><![CDATA[
 
-<h1 id="aritcle">Aritcle</h1>
+<p>The title attracts me at the first sight. How do the authors switch a MDS code to
+a MSR code though they belong to different classes of erasure codes from my
+understanding? After reading the abstract, a big question mark arises over my
+head as the properties of this code seems rather promising. This new code,
+termed as <em>Clay codes</em> (short for Coupled-Layer), achieves the following
+properties:</p>
+
+<ol>
+<li>Low storage overhead;</li>
+<li>Optimal in repair bandwidth, sub-packetization level and disk I/O;</li>
+<li>Uniform repair performance of data and parity nodes;</li>
+<li>Support for both single and multiple-node repairs, while permitting faster
+and more efficient repair.</li>
+</ol>
+
+<p>We can look at how Clay codes offer these advantages one by one later.  Before
+going into the details of Clay codes, we first review the motivation and
+challenges of this work.  In my opinion, they really try to solve
+a challenging and practical problem. Now more and more distributed storage
+systems employ erasure coding to protect data against failures. And one class of
+widely-used erasure codes is <em>Maximum Distance Separable (MDS) codes</em>, e.g.,
+Reed-Solomon codes. However, MDS codes incur high repair bandwidth while they
+offer minimum storage overhead. Therefore, another class of codes named
+<em>Minimum Storage Regenerating (MSR) codes</em> is proposed to minimize the repair
+bandwidth cost while keeping low storage overhead and tolerating faults as MDS
+codes. But the authors think the current MSR codes are not practical enough to
+adopt in real-world storage systems. They consider the following points:</p>
+
+<ul>
+<li>Complex computation, e.g., nccloud;</li>
+<li>Non-uniform repair for different types of node failures, e.g., HashTag;</li>
+<li>Tolerate limited number of failures, e.g., Butterfly;</li>
+<li>Uncommon construction of erasure codes, e.g., PM-RMT, Butterfly.</li>
+</ul>
+
+<p>Well, Clay codes do beat the existing MSR codes from the following
+perspectives. Actually this paper can be considered as an extension of their
+previous paper. The key idea of Clay codes is &ldquo;Clay codes are constructed by
+placing any MDS code in multiple layers and performing pair-wise coupling
+across layers.&rdquo; No magic in computer science but math exists. They add
+additional computation to encoding/decoding such that minimum data can complete
+the recovery as MSR codes. During encoding, Clay codes convert to uncoupled
+code via pairwise reverse transform (PRT), perform MDS encoding, then turn back
+to coupled codes via pairwise forward transform (PFT). For single-node
+recovery, Clay codes first perform PRT to obtain the uncoupled code, MDS
+decoding, and then compute the coupled element. Briefly speaking, the less
+repair bandwidth cost derives from the coupling (or spreading data across
+layers), i.e., any two sub-chunks out of {U, U∗, C, C∗} can be computed from
+remaining two (Q: why not one-to-one?).  Detailed explanation can be found in
+the slides.</p>
+
+<p>They implement Clay codes on Ceph, which is the first vector codes running on
+Ceph. In the evaluation, they compare Clay codes with RS codes, which I think
+can be better if considering other MSR codes. Hope I can implement it by myself
+someday and continue to compare it with other erasure codes.</p>
+
+<h2 id="references">References:</h2>
+
+<ul>
+<li><a href="https://www.usenix.org/system/files/conference/fast18/fast18-vajha.pdf" target="_blank">Paper</a></li>
+<li><a href="https://www.usenix.org/sites/default/files/conference/protected-files/fast18_slides_vajha.pdf" target="_blank">Authors&rsquo;
+slides</a></li>
+</ul>
 ]]></content>
     </item>
     

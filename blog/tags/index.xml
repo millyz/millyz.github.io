@@ -7,9 +7,28 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
+    <lastBuildDate>Mon, 29 Oct 2018 19:00:00 +0800</lastBuildDate>
     
 	<atom:link href="https://millyz.github.io/blog/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Erasure Coding</title>
+      <link>https://millyz.github.io/blog/tags/erasure-coding/</link>
+      <pubDate>Mon, 29 Oct 2018 19:00:00 +0800</pubDate>
+      
+      <guid>https://millyz.github.io/blog/tags/erasure-coding/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Paper Reading</title>
+      <link>https://millyz.github.io/blog/tags/paper-reading/</link>
+      <pubDate>Mon, 29 Oct 2018 19:00:00 +0800</pubDate>
+      
+      <guid>https://millyz.github.io/blog/tags/paper-reading/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>
