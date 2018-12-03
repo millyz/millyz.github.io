@@ -7,10 +7,20 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
-    <lastBuildDate>Mon, 29 Oct 2018 19:00:00 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 03 Dec 2018 17:21:30 +0800</lastBuildDate>
     
 	<atom:link href="https://millyz.github.io/blog/tags/paper-reading/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Overload Control for Scaling WeChat Microservices, SoCC &#39;18</title>
+      <link>https://millyz.github.io/blog/posts/dagor-socc18/</link>
+      <pubDate>Mon, 03 Dec 2018 17:21:30 +0800</pubDate>
+      
+      <guid>https://millyz.github.io/blog/posts/dagor-socc18/</guid>
+      <description>This paper presents the microservice architecture and overload control at WeChat. We can take a look how such a massive application runs internally, which is the point attracting me most. This paper is easy to follow and understand. In conclusion, the technique introduced in this paper seems straightforward and practical.
+The motivation of this paper is quite strong and very clear. &amp;ldquo;Workload handled by the WeChat backend is always varying over time, and the fluctuation pattern differs among diverse situations&amp;rdquo;.</description>
+    </item>
     
     <item>
       <title>Clay codes: Moulding MDS Codes to Yield an MSR Code, FAST &#39;18</title>
