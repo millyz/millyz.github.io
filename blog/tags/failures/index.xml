@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Failures on The Evening Paper</title>
+    <link>https://millyz.github.io/blog/tags/failures/</link>
+    <description>Recent content in Failures on The Evening Paper</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
+    <lastBuildDate>Fri, 07 Dec 2018 13:19:26 +0800</lastBuildDate>
+    
+	<atom:link href="https://millyz.github.io/blog/tags/failures/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>An Analysis of Network-Partitioning Failures in Cloud Systems</title>
+      <link>https://millyz.github.io/blog/posts/neat-osdi18/</link>
+      <pubDate>Fri, 07 Dec 2018 13:19:26 +0800</pubDate>
+      
+      <guid>https://millyz.github.io/blog/posts/neat-osdi18/</guid>
+      <description>This paper studies 136 system failures attributed to network-partitioning faults from 25 widely used distributed systems. They find that the majority of the failures leads to catastrophic effects and can be easily detected by isolating a single node. The challenging is that the number of test cases that one must consider is extremely large. Then they identify ordering, timing and network fault characteristics to simplify testing. They built NEAT, a testing framework that simplifies the coordination of multiple clients and can inject different types of network-partitioning faults.</description>
+    </item>
+    
+  </channel>
+</rss>

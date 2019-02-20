@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Machine Learning on The Evening Paper</title>
+    <link>https://millyz.github.io/blog/tags/machine-learning/</link>
+    <description>Recent content in Machine Learning on The Evening Paper</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
+    <lastBuildDate>Tue, 12 Feb 2019 10:40:49 +0800</lastBuildDate>
+    
+	<atom:link href="https://millyz.github.io/blog/tags/machine-learning/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>SageDB:A Learned Database System, CIDR19</title>
+      <link>https://millyz.github.io/blog/posts/sagedb-cidr19/</link>
+      <pubDate>Tue, 12 Feb 2019 10:40:49 +0800</pubDate>
+      
+      <guid>https://millyz.github.io/blog/posts/sagedb-cidr19/</guid>
+      <description>The paper targets on the problem caused by the general design of modern data processing systems, which do not consider the characteristics of the particular application and data of the user. The main idea of SageDB is to design a highly specialized DB for an application through code synthesis and machine learning. Though previous work has explored the use of machine learning in DB design, the authors argue that the learned components can fully replace core components of a database system such as index structures, sorting algorithm, or even query executor.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -7,17 +7,53 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
-    <lastBuildDate>Mon, 29 Oct 2018 19:00:00 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 12 Feb 2019 10:40:49 +0800</lastBuildDate>
     
 	<atom:link href="https://millyz.github.io/blog/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>Database System</title>
+      <link>https://millyz.github.io/blog/tags/database-system/</link>
+      <pubDate>Tue, 12 Feb 2019 10:40:49 +0800</pubDate>
+      
+      <guid>https://millyz.github.io/blog/tags/database-system/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Erasure Coding</title>
       <link>https://millyz.github.io/blog/tags/erasure-coding/</link>
-      <pubDate>Mon, 29 Oct 2018 19:00:00 +0800</pubDate>
+      <pubDate>Wed, 13 Feb 2019 10:50:14 +0800</pubDate>
       
       <guid>https://millyz.github.io/blog/tags/erasure-coding/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Failures</title>
+      <link>https://millyz.github.io/blog/tags/failures/</link>
+      <pubDate>Fri, 07 Dec 2018 13:19:26 +0800</pubDate>
+      
+      <guid>https://millyz.github.io/blog/tags/failures/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>File System</title>
+      <link>https://millyz.github.io/blog/tags/file-system/</link>
+      <pubDate>Wed, 05 Dec 2018 09:27:56 +0800</pubDate>
+      
+      <guid>https://millyz.github.io/blog/tags/file-system/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Machine Learning</title>
+      <link>https://millyz.github.io/blog/tags/machine-learning/</link>
+      <pubDate>Tue, 12 Feb 2019 10:40:49 +0800</pubDate>
+      
+      <guid>https://millyz.github.io/blog/tags/machine-learning/</guid>
       <description></description>
     </item>
     
@@ -33,7 +69,7 @@
     <item>
       <title>Paper Reading</title>
       <link>https://millyz.github.io/blog/tags/paper-reading/</link>
-      <pubDate>Mon, 03 Dec 2018 17:21:30 +0800</pubDate>
+      <pubDate>Wed, 13 Feb 2019 10:50:14 +0800</pubDate>
       
       <guid>https://millyz.github.io/blog/tags/paper-reading/</guid>
       <description></description>
